@@ -26,7 +26,7 @@ Vagrant.configure(VAGRANTFILE_API_VERSION) do |config|
     chef.add_role "apache_django"
     chef.add_recipe 'python::default'
     chef.add_recipe 'django::apache'
-    chef.add_recipe 'django::apache_domain'
+#    chef.add_recipe 'django::apache_domain'
     chef.log_level = :debug
   end
 end
