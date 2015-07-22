@@ -7,7 +7,7 @@ default_attributes(
             }
         },
    :django => {
-        :version => "1.4.8",
+        :version => "1.8.3",
         :user => "root",
         :group => "root"
         },
