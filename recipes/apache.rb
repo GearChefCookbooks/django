@@ -4,13 +4,6 @@ execute "update package index" do
   action :nothing
 end.run_action(:run)
 
-include_recipe "apt::default"
-include_recipe "apache2::mod_wsgi"
-include_recipe "build-essential::default"
-include_recipe "git::default"
-include_recipe "vim::default"
-include_recipe "python::default"
-
 %w{accountsservice				
 adduser					
 apache2					
