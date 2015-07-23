@@ -6,10 +6,10 @@ end.run_action(:run)
 
 %w{
 apache2					
+apache2-data
 apache2-mpm-prefork			
 apache2-utils				
 apache2.2-bin				
-apache2.2-common			
 python-httplib2				
 python-mysqldb				
 python-setuptools			
