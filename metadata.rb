@@ -12,3 +12,4 @@ depends "git"
 depends "vim"
 depends "python"
 depends "build-essential"
+depends 'iptables', '= 1.1.0'
